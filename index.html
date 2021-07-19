@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note Maker</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/util.css">
+
+</head>
+
+<body>
+    <div class="navbar max-width1 m-auto m-top1">
+        <div class="left">
+            <div class="logo">NoteMaker</div>
+
+
+        </div>
+        <div class="right">
+            <input class="inputtext" id="search" type="text" placeholder="Search">
+
+        </div>
+    </div>
+
+    <div class="container max-width2 m-auto m-top2">
+        <h1>Welcome to the Note Maker</h1>
+        <hr color="black">
+        <div class="Note m-top2">
+            <div class="note-body">
+                <h5>Add your note</h5>
+                <textarea class="note-area" id="addTxt" placeholder="Start Typing..." rows="3"></textarea>
+                <button class="btn" id="addBtn">Add Note</button>
+            </div>
+        </div>
+
+
+        <hr color="black" class="m-top2">
+        <h1>Your Notes</h1>
+        <hr color="black">
+        <div class="row" id="notes">
+
+
+        </div>
+    </div>
+
+    <script src="js/App.js"></script>
+</body>
+
+</html>

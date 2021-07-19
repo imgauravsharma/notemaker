@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    /* background-color: black; */
+    /* background-image: linear-gradient(#ce9b3d,#2fd4ab); */
+    background-image: linear-gradient(#f5af19, #f12711);
+
+    border: 2px solid;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 100rem;
+    height: 3rem;
+    align-items: center;
+}
+
+.left {
+    color: white;
+    font-size: 30px;
+}
+
+.logo {
+    padding-left: 27px;
+}
+
+.right {
+    padding-right: 14px;
+}
+
+.inputtext {
+    width: 17vw;
+    height: 1.9rem;
+    font-size: 16px;
+    border-radius: 19px;
+    padding-left: 14px;
+    font-weight: bold;
+}
+
+.container {
+    margin-top: 3px;
+    /* background-color: red; */
+}
+
+.container h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.Note {
+    border: 1.5px solid black;
+}
+
+.note-body {
+    padding: 18px;
+}
+
+.note-body h5 {
+    font-size: 25px;
+}
+
+.note-area {
+    border: 1.5px solid black;
+    background: transparent;
+    width: 100%;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.btn {
+    /* background-color: blue; */
+    background-image: linear-gradient(#6fc3f7, #1813a2);
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    font-family: serif;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.row {
+    margin: 13px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.noteCard {
+    width: 18rem;
+    margin: 14px;
+    border: 1px solid black;
+    padding: 18px;
+}
+
+.noteCard h5 {
+    font-size: 25px;
+}
+
+.noteCard p {
+    font-size: 20px;
+}

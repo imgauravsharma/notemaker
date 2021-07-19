@@ -1,0 +1,25 @@
+body{
+    /* background-image: linear-gradient(rgb(235,255,95), rgb(106,189,13)); */
+    background-image: linear-gradient(#f5af19, #f12711);
+    height: 100%;
+}
+.max-width1{
+    max-width: 96vw;
+}
+
+.max-width2 {
+    max-width: 80vw;
+}
+
+.m-auto{
+    margin: auto;
+}
+
+.m-top1{
+    margin-top: 9px;
+}
+
+.m-top2{
+    margin-top: 18px;
+
+}
